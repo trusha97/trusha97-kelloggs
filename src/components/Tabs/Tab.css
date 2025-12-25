@@ -1,0 +1,186 @@
+/* ===== TABS ===== */
+.tabs {
+    display: flex;
+    margin: 20px 16px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 50px;
+}
+
+.tab {
+    flex: 1;
+    padding: 13px 0;
+    border: none;
+    background: #fff;
+    /* font-weight: 600; */
+    font-size: 16px;
+    color: #d89400;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #d89400;
+    color: #fff;
+    border-radius: 13px;
+}
+
+/* ===== DAY INCOME PAGE ===== */
+.main-plan-div {
+    display: flex;
+    align-items: end;
+    padding: 6px 0;
+}
+
+.main-paln-image-div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.main-paln-image-div {
+    width: 53px;
+    height: 40px;
+}
+
+.main-image-plan-div h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.stats-price {
+    color: rgb(104, 101, 254);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.stats-price1 {
+    color: rgb(0, 209, 34);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.stats-price2 {
+    color: #f38900;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.stats-price3 {
+    color: rgb(182, 0, 235);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ===== PLAN CARD ===== */
+.plan-card {
+    background: #fff;
+    margin-bottom: 16px;
+    border-radius: 13px;
+    padding: 10px 10px 0 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.plan-card h3 {
+    margin-bottom: 10px;
+}
+
+.plan-img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+/* ===== VIP ===== */
+.vip-card {
+    /* background: linear-gradient(135deg, #b80000, #ff3b3b); */
+    color: #000000E6;
+}
+
+.vip-products {
+    display: flex;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+.vip-products img {
+    width: 22%;
+    border-radius: 8px;
+}
+
+/* ===== STATS ===== */
+.stats3 {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    padding-bottom: 10px;
+}
+
+.stat-box3 {
+    flex: 1;
+    background: #f6f6f6;
+    border-radius: 12px;
+    padding: 12px 0;
+    text-align: center;
+    width: 100.25px;
+    height: 74px;
+}
+
+.vip-card .stat-box3 {
+    background: #f6f6f6;
+    color: #000;
+}
+
+/* ===== BUY BUTTON ===== */
+.btn-byu-div {
+    padding: 6px 3px 13px 3px;
+}
+
+.buy-btn {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 13px 20px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+    background-image: linear-gradient(
+        270deg,
+        #ebd6aa,
+        #d89400,
+        #ebd6aa,
+        #d89400,
+        #ebd6aa
+    );
+
+    background-size: 400% 100%;
+    animation: ro1 4s linear infinite;
+}
+.buy-btn svg {
+    margin-right: 6px;
+}
+@keyframes ro1 {
+    from {
+        background-position-x: 0%;
+    }
+    to {
+        background-position-x: 400%;
+    }
+}
+.btn-lite-buy {
+    padding: 6px 3px 13px 3px;
+}
+
+.buy-btn1{
+        font-size: 16px;
+    padding: 13px 20px;
+    background-color: #bbbcc6;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+    border: none;
+}

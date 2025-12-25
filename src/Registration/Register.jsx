@@ -32,7 +32,6 @@ const Register = () => {
   const onlyNumbers = (value, max = 10) =>
     value.replace(/[^0-9]/g, "").slice(0, max);
 
-
   return (
     <>
       <div className="content">

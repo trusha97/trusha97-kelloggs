@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    min-height: 100vh;
+    /* background: #f5f5f5; */
+    display: flex;
+    justify-content: center;
+}
+
+.content2 {
+    max-width: 500px;
+    padding: 0px 20px 80px 20px;
+    min-height: calc(100vh - 160px);
+}
+
+/* ================= BANNER ================= */
+.banner img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ================= USER CARD ================= */
+.user-card {
+    background: #ffffff;
+    margin: -33px 16px 0;
+    border-radius: 0 13px 13px 13px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    position: absolute;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    top: -50px;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+img .avatarImg {
+    width: 100px;
+    height: 100px;
+}
+
+/* ================= USER INFO ================= */
+.user-info {
+    text-align: center;
+}
+
+.phone {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 13px 0 13px 13px;
+}
+
+/* ================= VIP ================= */
+.vip-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 13px 0px 13px;
+    font-size: 13px;
+}
+
+.vip {
+    width: 100px;
+    height: 33px;
+}
+
+.progress-text {
+    font-size: 13px;
+    /* color: #888; */
+}
+
+/* ===== PROGRESS BAR ===== */
+.progress-wrapper {
+    padding: 10px 13px 0;
+}
+
+.progress-track {
+    width: 100%;
+    height: 13px;
+    background: #ededed;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #f5c84c, #d89b00);
+    border-radius: 10px;
+    transition: width 0.4s ease;
+}
+
+/* ================= STATS ================= */
+.stats {
+    display: flex;
+    gap: 13px;
+    padding: 12px;
+}
+
+.stat-box {
+    flex: 1;
+    background: #f6f6f6;
+    border-radius: 14px;
+    padding: 20px 0;
+    text-align: center;
+    width: 136px;
+    height: 94px;
+}
+
+.stat-box h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #000000E6;
+}
+
+.stat-box p {
+    font-size: 16px;
+    color: #000000E6;
+}
+
+
+/* ================= ACTIONS ================= */
+.stats1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 13px 16px;
+}
+
+.stat-box1 {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    background-color: #ebd6aa;
+    padding: 20px 0 20px 0;
+    border-radius: 13px;
+    height: 100px;
+    width: 109.5px;
+}
+
+.stat-box-div {
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+.stat-box1 h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #000000E6;
+}
+
+.stat-box1 p {
+    font-size: 14px;
+    color: #000000E6;
+}
+
+
+
